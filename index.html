@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h2>CONTACT</h2>
+    <h1>LET'S CONNECT</h1>
+    <h2>Please fill out the form below and we'll reach out right way</h2>
+    <form id="myForm">
+      <div class="form-group">
+        <label for="firstName">First Name*:</label>
+        <label for="lastName">Last Name*:</label>
+        <input type="text" id="firstName" name="firstName" required>
+        <input type="text" id="lastName" name="lastName" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email*:</label>
+        <label for="company">Company*:</label>
+        <input type="email" id="email" name="email" required>
+        <input type="text" id="company" name="company" required>
+      </div>
+      <div class="form-group">
+        <label for="jobTitle">Job Title*:</label>
+        <label for="iLikeTo">I'll Like To*:</label>
+        <input type="text" id="jobTitle" name="jobTitle" required>
+        <select id="iLikeTo" name="iLikeTo" required>
+          <option value="">Select an option</option>
+          <option value="Option 1">Finance my tech stack</option>
+          <option value="Option 2">Offer contract finance to my customers</option>
+          <option value="Option 3">Something else</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="hearAboutUs">Where do you hear about us?*</label>
+        <input type="text" id="hearAboutUs" name="hearAboutUs" required>
+      </div>
+      <div class="form-group">
+        <label for="anythingElse">Anything else you'd like us to know?</label>
+        <textarea id="anythingElse" name="anythingElse"></textarea>
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
